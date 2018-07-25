@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "334510044503",
+    "firebase_url": "https://notifyme-10245.firebaseio.com",
+    "project_id": "notifyme-10245",
+    "storage_bucket": "notifyme-10245.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334510044503:android:77281cdeaf0dcd71",
+        "android_client_info": {
+          "package_name": "com.darshan.notifyme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334510044503-9l69qh06g3bbaf9aldpg39v9jififiou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFdT8RjEWUd2Z3u0MI_cWhTScNirE9qsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

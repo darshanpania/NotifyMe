@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="NOTIFY ME TO..."
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+   <EditText
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/editText"
+       android:padding="15dp"
+       android:hint="Type here"
+       android:layout_margin="10dp"
+       android:background="@drawable/rounded_edittext"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/spinner" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_margin="10dp"
+        android:text="Remind me"
+        android:textColor="@android:color/white"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+</LinearLayout>
